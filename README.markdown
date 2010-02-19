@@ -31,4 +31,4 @@ This code is licensed under the [MIT licence](http://www.opensource.org/licenses
 
 ## Notes
 
-Feel free to suggest improvements or fork this project and improve upon it yourself.
+Feel free to suggest improvements in a ticket or fork this project and improve upon it yourself.
