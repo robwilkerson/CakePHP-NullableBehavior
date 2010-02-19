@@ -15,19 +15,19 @@ As with any CakePHP behavior, just save `nullable.php` to `<application root>/ap
 1. Copy `<application root>/cake/libs/model/app_model` to your `<application root>/app/` directory.
 1. Apply the `NullableBehavior` to the newly copied `AppModel`.
 
-	class AppModel extends Model {
-	  public $actsAs = array( 'Nullable' );
+		class AppModel extends Model {
+		  public $actsAs = array( 'Nullable' );
 	
-	  # 
-	  # Additional shared model code, as required
-	  # 
-	}
+		  # 
+		  # Additional shared model code, as required
+		  # 
+		}
 	
 Of course, the `Nullable` behavior can also be applied to a specific model in the same manner outlined above.
 
 ## License
 
-This code is licensed under the [MIT licence](http://www.opensource.org/licenses/mit-license.php)
+This code is licensed under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
 ## Notes
 
