@@ -28,7 +28,7 @@ This behavior is especially useful when foreign key fields are nullable. CakePHP
 1. Apply the `NullableBehavior` to the newly copied `AppModel`.
 
     class AppModel extends Model {
-      public $actsAs = array( 'nullable.nullable' );
+      public $actsAs = array( 'nullable.Nullable' );
   
       # 
       # Additional shared model code, as required
