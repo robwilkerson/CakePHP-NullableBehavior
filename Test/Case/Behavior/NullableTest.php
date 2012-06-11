@@ -1,6 +1,7 @@
 <?php
 
-App::import( 'Core', array( 'AppModel', 'Model' ) );
+App::uses( 'Model', 'Model' );
+App::uses( 'AppModel', 'Model' );
 
 /**
  * Article class
@@ -29,7 +30,7 @@ class Author extends CakeTestModel {
 /**
  * AuditableBehavior test class.
  */
-class AuditableBehaviorTest extends CakeTestCase {
+class NullableBehaviorTest extends CakeTestCase {
   /**
    * Fixtures associated with this test case
    *
@@ -69,7 +70,6 @@ class AuditableBehaviorTest extends CakeTestCase {
   public function testCreate() {
     $new_article = array(
       'Article' => array(
-        'user_id'   => 1,
         'author_id' => '',
         'title'     => 'First Test Article', 
         'body'      => 'First Test Article Body', 

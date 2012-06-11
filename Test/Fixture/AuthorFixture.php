@@ -5,7 +5,7 @@ class AuthorFixture extends CakeTestFixture {
 
   public $fields = array(
     'id'         => array('type' => 'integer', 'key' => 'primary'),
-    'first_name' => array('type' => 'string', 'null' => false),
+    'first_name' => array('type' => 'string' ),
     'last_name'  => array('type' => 'string', 'null' => false),
     'created'    => 'datetime',
     'updated'    => 'datetime'

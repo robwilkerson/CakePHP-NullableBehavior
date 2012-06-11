@@ -9,6 +9,7 @@ class ArticleFixture extends CakeTestFixture {
     'title'         => array('type' => 'string', 'null' => false),
     'body'          => 'text',
     'published'     => array('type' => 'string', 'length' => 1, 'default' => 'N'),
+    'ignored_field' => array( 'type' => 'integer', 'length' => 1, 'default' => 0 ),
     'created'       => 'datetime',
     'updated'       => 'datetime'
   );
@@ -16,7 +17,7 @@ class ArticleFixture extends CakeTestFixture {
   /**
    * records property
    *
-   * @public array
+   * @var array
    * @access public
    */
   public $records = array(
