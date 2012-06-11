@@ -27,13 +27,13 @@ This behavior is especially useful when foreign key fields are nullable. CakePHP
 1. Copy `<application root>/cake/libs/model/app_model` to your `<application root>/app/` directory.
 1. Apply the `NullableBehavior` to the newly copied `AppModel`.
 
-    class AppModel extends Model {
-      public $actsAs = array( 'nullable.Nullable' );
-  
-      # 
-      # Additional shared model code, as required
-      # 
-    }
+        class AppModel extends Model {
+          public $actsAs = array( 'Nullable.Nullable' );
+        
+          # 
+          # Additional shared model code, as required
+          # 
+        }
   
 Of course, the `Nullable` behavior can also be applied to a specific model in the same manner outlined above.
 
