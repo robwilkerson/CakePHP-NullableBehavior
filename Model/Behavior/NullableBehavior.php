@@ -9,7 +9,7 @@ class NullableBehavior extends ModelBehavior {
    * get lots of key constraint errors.
    *
    * @param   model   The model object to be saved.
-   * @return  void
+   * @return  boolean  Success
    */
   function beforeSave( $model ) {
     $schema = $model->schema();
