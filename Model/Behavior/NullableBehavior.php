@@ -21,5 +21,7 @@ class NullableBehavior extends ModelBehavior {
         }
       }
     }
+
+    return true;
   }
 }
