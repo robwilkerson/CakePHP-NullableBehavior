@@ -11,7 +11,7 @@ class NullableBehavior extends ModelBehavior {
    * @param   model   The model object to be saved.
    * @return  boolean  Success
    */
-  function beforeSave( $model ) {
+  function beforeSave( Model $model ) {
     $schema = $model->schema();
 
     foreach( $schema as $field => $metadata ) {
